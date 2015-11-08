@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EACECB91BEFFB5500B69BCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EACECB81BEFFB5500B69BCD /* AppDelegate.swift */; };
+		8EACECBB1BEFFB5500B69BCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EACECBA1BEFFB5500B69BCD /* ViewController.swift */; };
+		8EACECBE1BEFFB5500B69BCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EACECBC1BEFFB5500B69BCD /* Main.storyboard */; };
+		8EACECC01BEFFB5500B69BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EACECBF1BEFFB5500B69BCD /* Assets.xcassets */; };
+		8EACECC31BEFFB5500B69BCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EACECC11BEFFB5500B69BCD /* LaunchScreen.storyboard */; };
+		8EACECCE1BEFFB5600B69BCD /* VerbesItalien3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EACECCD1BEFFB5600B69BCD /* VerbesItalien3Tests.swift */; };
+		8EACECD91BEFFB5600B69BCD /* VerbesItalien3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EACECD81BEFFB5600B69BCD /* VerbesItalien3UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EACECCA1BEFFB5600B69BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EACECAD1BEFFB5500B69BCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EACECB41BEFFB5500B69BCD;
+			remoteInfo = VerbesItalien3;
+		};
+		8EACECD51BEFFB5600B69BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EACECAD1BEFFB5500B69BCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EACECB41BEFFB5500B69BCD;
+			remoteInfo = VerbesItalien3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EACECB51BEFFB5500B69BCD /* VerbesItalien3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerbesItalien3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EACECB81BEFFB5500B69BCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EACECBA1BEFFB5500B69BCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EACECBD1BEFFB5500B69BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EACECBF1BEFFB5500B69BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EACECC21BEFFB5500B69BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EACECC41BEFFB5500B69BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EACECC91BEFFB5600B69BCD /* VerbesItalien3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerbesItalien3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EACECCD1BEFFB5600B69BCD /* VerbesItalien3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerbesItalien3Tests.swift; sourceTree = "<group>"; };
+		8EACECCF1BEFFB5600B69BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EACECD41BEFFB5600B69BCD /* VerbesItalien3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerbesItalien3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EACECD81BEFFB5600B69BCD /* VerbesItalien3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerbesItalien3UITests.swift; sourceTree = "<group>"; };
+		8EACECDA1BEFFB5600B69BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EACECB21BEFFB5500B69BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EACECC61BEFFB5600B69BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EACECD11BEFFB5600B69BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EACECAC1BEFFB5500B69BCD = {
+			isa = PBXGroup;
+			children = (
+				8EACECB71BEFFB5500B69BCD /* VerbesItalien3 */,
+				8EACECCC1BEFFB5600B69BCD /* VerbesItalien3Tests */,
+				8EACECD71BEFFB5600B69BCD /* VerbesItalien3UITests */,
+				8EACECB61BEFFB5500B69BCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EACECB61BEFFB5500B69BCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EACECB51BEFFB5500B69BCD /* VerbesItalien3.app */,
+				8EACECC91BEFFB5600B69BCD /* VerbesItalien3Tests.xctest */,
+				8EACECD41BEFFB5600B69BCD /* VerbesItalien3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EACECB71BEFFB5500B69BCD /* VerbesItalien3 */ = {
+			isa = PBXGroup;
+			children = (
+				8EACECB81BEFFB5500B69BCD /* AppDelegate.swift */,
+				8EACECBA1BEFFB5500B69BCD /* ViewController.swift */,
+				8EACECBC1BEFFB5500B69BCD /* Main.storyboard */,
+				8EACECBF1BEFFB5500B69BCD /* Assets.xcassets */,
+				8EACECC11BEFFB5500B69BCD /* LaunchScreen.storyboard */,
+				8EACECC41BEFFB5500B69BCD /* Info.plist */,
+			);
+			path = VerbesItalien3;
+			sourceTree = "<group>";
+		};
+		8EACECCC1BEFFB5600B69BCD /* VerbesItalien3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8EACECCD1BEFFB5600B69BCD /* VerbesItalien3Tests.swift */,
+				8EACECCF1BEFFB5600B69BCD /* Info.plist */,
+			);
+			path = VerbesItalien3Tests;
+			sourceTree = "<group>";
+		};
+		8EACECD71BEFFB5600B69BCD /* VerbesItalien3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EACECD81BEFFB5600B69BCD /* VerbesItalien3UITests.swift */,
+				8EACECDA1BEFFB5600B69BCD /* Info.plist */,
+			);
+			path = VerbesItalien3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EACECB41BEFFB5500B69BCD /* VerbesItalien3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EACECDD1BEFFB5600B69BCD /* Build configuration list for PBXNativeTarget "VerbesItalien3" */;
+			buildPhases = (
+				8EACECB11BEFFB5500B69BCD /* Sources */,
+				8EACECB21BEFFB5500B69BCD /* Frameworks */,
+				8EACECB31BEFFB5500B69BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerbesItalien3;
+			productName = VerbesItalien3;
+			productReference = 8EACECB51BEFFB5500B69BCD /* VerbesItalien3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EACECC81BEFFB5600B69BCD /* VerbesItalien3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EACECE01BEFFB5600B69BCD /* Build configuration list for PBXNativeTarget "VerbesItalien3Tests" */;
+			buildPhases = (
+				8EACECC51BEFFB5600B69BCD /* Sources */,
+				8EACECC61BEFFB5600B69BCD /* Frameworks */,
+				8EACECC71BEFFB5600B69BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EACECCB1BEFFB5600B69BCD /* PBXTargetDependency */,
+			);
+			name = VerbesItalien3Tests;
+			productName = VerbesItalien3Tests;
+			productReference = 8EACECC91BEFFB5600B69BCD /* VerbesItalien3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EACECD31BEFFB5600B69BCD /* VerbesItalien3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EACECE31BEFFB5600B69BCD /* Build configuration list for PBXNativeTarget "VerbesItalien3UITests" */;
+			buildPhases = (
+				8EACECD01BEFFB5600B69BCD /* Sources */,
+				8EACECD11BEFFB5600B69BCD /* Frameworks */,
+				8EACECD21BEFFB5600B69BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EACECD61BEFFB5600B69BCD /* PBXTargetDependency */,
+			);
+			name = VerbesItalien3UITests;
+			productName = VerbesItalien3UITests;
+			productReference = 8EACECD41BEFFB5600B69BCD /* VerbesItalien3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EACECAD1BEFFB5500B69BCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Normand Martin";
+				TargetAttributes = {
+					8EACECB41BEFFB5500B69BCD = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					8EACECC81BEFFB5600B69BCD = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 8EACECB41BEFFB5500B69BCD;
+					};
+					8EACECD31BEFFB5600B69BCD = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 8EACECB41BEFFB5500B69BCD;
+					};
+				};
+			};
+			buildConfigurationList = 8EACECB01BEFFB5500B69BCD /* Build configuration list for PBXProject "VerbesItalien3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EACECAC1BEFFB5500B69BCD;
+			productRefGroup = 8EACECB61BEFFB5500B69BCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EACECB41BEFFB5500B69BCD /* VerbesItalien3 */,
+				8EACECC81BEFFB5600B69BCD /* VerbesItalien3Tests */,
+				8EACECD31BEFFB5600B69BCD /* VerbesItalien3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EACECB31BEFFB5500B69BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EACECC31BEFFB5500B69BCD /* LaunchScreen.storyboard in Resources */,
+				8EACECC01BEFFB5500B69BCD /* Assets.xcassets in Resources */,
+				8EACECBE1BEFFB5500B69BCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EACECC71BEFFB5600B69BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EACECD21BEFFB5600B69BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EACECB11BEFFB5500B69BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EACECBB1BEFFB5500B69BCD /* ViewController.swift in Sources */,
+				8EACECB91BEFFB5500B69BCD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EACECC51BEFFB5600B69BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EACECCE1BEFFB5600B69BCD /* VerbesItalien3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EACECD01BEFFB5600B69BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EACECD91BEFFB5600B69BCD /* VerbesItalien3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EACECCB1BEFFB5600B69BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EACECB41BEFFB5500B69BCD /* VerbesItalien3 */;
+			targetProxy = 8EACECCA1BEFFB5600B69BCD /* PBXContainerItemProxy */;
+		};
+		8EACECD61BEFFB5600B69BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EACECB41BEFFB5500B69BCD /* VerbesItalien3 */;
+			targetProxy = 8EACECD51BEFFB5600B69BCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EACECBC1BEFFB5500B69BCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EACECBD1BEFFB5500B69BCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EACECC11BEFFB5500B69BCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EACECC21BEFFB5500B69BCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EACECDB1BEFFB5600B69BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EACECDC1BEFFB5600B69BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EACECDE1BEFFB5600B69BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VerbesItalien3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NM.VerbesItalien3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8EACECDF1BEFFB5600B69BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VerbesItalien3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NM.VerbesItalien3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8EACECE11BEFFB5600B69BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VerbesItalien3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NM.VerbesItalien3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VerbesItalien3.app/VerbesItalien3";
+			};
+			name = Debug;
+		};
+		8EACECE21BEFFB5600B69BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VerbesItalien3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NM.VerbesItalien3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VerbesItalien3.app/VerbesItalien3";
+			};
+			name = Release;
+		};
+		8EACECE41BEFFB5600B69BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VerbesItalien3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NM.VerbesItalien3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VerbesItalien3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8EACECE51BEFFB5600B69BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VerbesItalien3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NM.VerbesItalien3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VerbesItalien3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EACECB01BEFFB5500B69BCD /* Build configuration list for PBXProject "VerbesItalien3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EACECDB1BEFFB5600B69BCD /* Debug */,
+				8EACECDC1BEFFB5600B69BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EACECDD1BEFFB5600B69BCD /* Build configuration list for PBXNativeTarget "VerbesItalien3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EACECDE1BEFFB5600B69BCD /* Debug */,
+				8EACECDF1BEFFB5600B69BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8EACECE01BEFFB5600B69BCD /* Build configuration list for PBXNativeTarget "VerbesItalien3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EACECE11BEFFB5600B69BCD /* Debug */,
+				8EACECE21BEFFB5600B69BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8EACECE31BEFFB5600B69BCD /* Build configuration list for PBXNativeTarget "VerbesItalien3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EACECE41BEFFB5600B69BCD /* Debug */,
+				8EACECE51BEFFB5600B69BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EACECAD1BEFFB5500B69BCD /* Project object */;
+}
